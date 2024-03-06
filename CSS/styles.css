@@ -4,7 +4,8 @@ body {
     background-color: #f1d3c1;
 }
 
-header {
+/*logo header*/
+.header {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,15 +16,25 @@ header {
     justify-content: start;
     align-items: center;
     z-index: 100;
-
 }
 
 .logo {
     position: absolute;
     height: 60px;
     width: 60px;
+    top: 25px;
+}
+.logo:hover {
+    transform: scale(1.1);
 }
 
+.web-name {
+    position: absolute;
+    top: 80px; 
+    left: 0; 
+    font-size: 16px;
+}
+/*navbar*/
 .navbar {
     display: flex;
     align-items: center;
@@ -64,10 +75,16 @@ header {
     vertical-align: middle;
 }
 
-#links {
-    padding-left: 10px;
+/*links*/
+.web-links {
+    padding-left: 30px;
 }
 
+.web-links:hover {
+    transform: scale(1.1);
+}
+
+/*search + profile*/
 .search-container {
     margin-left: auto;
     margin-right: 60px;
@@ -111,7 +128,7 @@ header {
     border: 3px solid black;
     padding-left: 30px;
 }
-
+/*main content*/
 .main h1 {
     margin-top: 10%;
     text-align: center;
@@ -124,6 +141,7 @@ header {
     text-align: center;
     font-size: 48px;
 }
+
 
 
 
