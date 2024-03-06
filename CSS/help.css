@@ -137,10 +137,47 @@ body {
     margin-top: 10%;
     text-align: left;
     padding-left: 40px;
-    font-size: 68px;
+    font-size: 82px;
     margin-bottom: 0;
     font-family:  "Yanone Kaffeesatz";
     font-weight: 600;
     font-style: normal;
+}
+
+.main p {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 300px;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 600;
+    font-style: normal;
+}
+
+.button-redirect {
+    display: block;
+    height: 125px;
+    width: 125px;
+    padding: 2px;
+    margin-inline: 40px;
+    margin-top: 50px;
+    border: 4px solid black;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; 
+    cursor: auto;
+}
+
+.button-redirect:hover {
+    transform: scale(1.1);
+}
+
+.links-redirect {
+    display: inline;
+    justify-content: center;
+    position: absolute;
+    right: 80px;
+    top: 50px;
 }
 
