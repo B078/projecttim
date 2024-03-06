@@ -143,6 +143,15 @@ body {
 }
 
 
+.link-redirect {
+    justify-content: center;
+}
+.button-redirect {
+   display: inline;
+    height: 50px;
+    width: 50px;
+}
+
 
 
 
