@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -135,5 +137,8 @@ body {
     padding-left: 40px;
     font-size: 68px;
     margin-bottom: 0;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 600;
+    font-style: normal;
 }
 
