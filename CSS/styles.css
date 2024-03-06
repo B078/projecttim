@@ -63,12 +63,15 @@ body {
     border: 3.5px;
     border-style: solid;
     background-color: white;
-    
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .navbar ul li a:hover {
     border-color: #95bcf2;
+    cursor: pointer;
+    box-shadow: 5px 0 8px #95bcf2, 0 5px 8px #95bcf2;
 }
+
 
 .navbar img{
     height: 40px;
@@ -142,6 +145,26 @@ body {
     font-size: 48px;
 }
 
+.button-redirect {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    margin-inline: 40px;
+    margin-top: 50px;
+    border: 4px solid black;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.button-redirect:hover {
+    transform: scale(1.1);
+}
+
+.links-redirect {
+    display: flex;
+    justify-content: center;
+}
 
 
 
