@@ -171,7 +171,7 @@ body {
     box-shadow: 2px 0 8px black, 0 5px 8px black;
 }
 
-.main a {
+.main a:nth-child(1) {
     text-decoration: none;
     color: black;
 }
