@@ -134,21 +134,114 @@ body {
 }
 
 .main h1 {
-    margin-top: 10%;
-    text-align: left;
-    padding-left: 40px;
-    font-size: 82px;
+    margin-top: 9%;
+    margin-left: 35px;
     margin-bottom: 0;
+    text-align: left;
+    font-size: 70px;
     font-family:  "Yanone Kaffeesatz";
     font-weight: 600;
     font-style: normal;
+    
+}
+
+.main p {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 24px;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main button {
+    display: inline-block;
+    margin-left: 35px;
+    height: 36px;
+    width: 100px;
+    border: 3px solid black;
+    background-color: #95bcf2;
+    font-size: 20px;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main button:hover {
+    box-shadow: 2px 0 8px black, 0 5px 8px black;
 }
 
 .input-container {
-
+    width: 70%;
 }
 
-.aanmelden-input {
-
+.userinput {
+    display: block;
+    margin-top: 30px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    height: 25px;
+    width: 300px;
+    border: 3px solid black;
+    font-size: 20px;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    transform: scale(2);
 }
+
+.intresses-container {
+    position: absolute; 
+    display: block;
+    top: 27%;
+    height: 375px;
+    width: 400px;
+    margin-left: 45%;
+    font-family:  "Yanone Kaffeesatz";
+    background-color: white;
+    border: 6px solid black;
+}
+
+.intresses-container label {
+    padding-inline-start: 5px;
+    font-size: 30px;
+}
+
+.intresses-container input[type="checkbox"] {
+    height: 20px;
+    width: 30px;  
+}
+
+.lieverniet-container {
+    position: absolute; 
+    display: block;
+    top: 27%;
+    height: 375px;
+    width: 350px;
+    margin-left: 74%;
+    font-family:  "Yanone Kaffeesatz";
+    background-color: white;
+    border: 6px solid black;
+}
+
+.lieverniet-container label {
+    padding-inline-start: 5px;
+    font-size: 30px;
+}
+
+.lieverniet-input {
+    height: 300px;
+    width: 300px;  
+    margin-left: 20px;
+    font-family:  "Yanone Kaffeesatz";
+}
+
+
+
+
+
+
 

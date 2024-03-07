@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Mind</title>
-    <link rel="stylesheet" href="/CSS/help.css">
+    <link rel="stylesheet" href="/CSS/aanmelden.css">
     <link rel="icon" type="image/x-icon" href="/Images/HomeIcon.ico">
 </head>
 <body>
@@ -42,11 +42,42 @@
 
     <main class="main">
         <h1>Aanmelden</h1>
-        <div class="input-container">
-            <input type="text" class="aanmelden-input" >
-            <input type="text" class="aanmelden-input" >
-            <input type="text" class="aanmelden-input" >
-        </div>
+        <form class="input-container">
+            <input type="Gebruikersnaam" class="userinput" placeholder="Gebruikersnaam:" required>
+            <input type="password" class="userinput" placeholder="Wachtwoord:" required>
+            <input type="confirm" class="userinput" placeholder="Vul nog een keer uw wachtwoord in:" required>
+            <input type="leeftijd" class="userinput" placeholder="Leeftijd:" required>
+            <input type="email" class="userinput" placeholder="E-mail:" required>
+
+        </form>
+
+        <form class="intresses-container">
+            <label for="text">Intresses:</label><br>
+            <input type="checkbox" id="check" name="Voetbal" value="Voetbal">
+            <label for="text">Voetbal</label><br>
+            <input type="checkbox" id="check" name="Formule 1" value="Formule 1">
+            <label for="text">Formule 1</label><br>
+            <input type="checkbox" id="check" name="School" value="School">
+            <label for="text">School</label><br>
+            <input type="checkbox" id="check" name="Vollybal" value="Vollybal">
+            <label for="text">Vollybal</label><br>
+            <input type="checkbox" id="check" name="Kuntsenlen" value="Kuntsenlen">
+            <label for="text">Kuntsenlen</label><br>
+            <input type="checkbox" id="check" name="Gamen" value="Gamen">
+            <label for="text">Gamen</label>
+            
+        </form>
+
+        <form class="lieverniet-container">
+            <label for="text">Liever niet:</label><br>
+            <textarea  class="lieverniet-input" placeholder="Vul hier uw antwoord in:"></textarea>
+            
+        </form>
+
+
+
+        <button>Aanmelden</button>
+    </main>
             
 
 
