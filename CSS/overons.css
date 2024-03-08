@@ -204,28 +204,29 @@ body {
 .text1 {
     text-align: center;
     color: #32239b;
-    margin-left: 1242px;
+    padding-top: 112px;
+    margin-left: 1630px;
 }
 
 .text2 {
     text-align: center;
     color: #b92e39;
-    margin-left: 1246px;
-    padding-top: 80px;
+    margin-left: 1630px;
+    padding-top: 85px;
     }
 
 .text3 {
     text-align: center;
     color: #229647;
-    margin-left: 1250px;
+    margin-left: 1630px;
     padding-top: 90px;
 }
 
 .text4 {
     text-align: center;
     color: #f19c2a;
-    margin-left: 1220px;
-    padding-top: 85px;
+    margin-left: 1610px;
+    padding-top: 90px;
 }
 
 footer {
