@@ -125,7 +125,7 @@ body {
 }
 
 .search-input {
-    font-family: sans-serif, Arial;
+    font-family:  "Yanone Kaffeesatz";
     font-size: 18px;
     height: 30px;
     width: 150px;
@@ -164,6 +164,41 @@ body {
     transition: transform 0.3s ease-in-out; 
     cursor: auto;
 }
+
+#button-video {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    margin-inline: 40px;
+    margin-top: 50px;
+    border: 4px solid #f19c2a;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; 
+    cursor: auto;
+}
+
+#button-phone {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    margin-inline: 40px;
+    margin-top: 50px;
+    border: 4px solid #229647;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; 
+    cursor: auto;
+}
+
+#button-phone:hover {
+    transform: scale(1.1);
+}
+
+#button-video:hover {
+    transform: scale(1.1);
+}
+
 
 .button-redirect:hover {
     transform: scale(1.1);
