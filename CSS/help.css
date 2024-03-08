@@ -156,15 +156,31 @@ body {
 
 .button-redirect {
     display: block;
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     padding: 2px;
     margin-inline: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
     border: 4px solid black;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out; 
     cursor: auto;
+}
+
+.button1 {
+    border: 4px solid #32239b;
+}
+
+.button2 {
+    border: 4px solid #b92e39;
+}
+
+.button3 {
+    border: 4px solid #229647;
+}
+
+.button4 {
+    border: 4px solid #f19c2a;
 }
 
 .button-redirect:hover {
@@ -177,6 +193,39 @@ body {
     position: absolute;
     right: 80px;
     top: 50px;
+}
+
+.text-redirect {
+    display: flexbox; 
+    margin-top: -590px;
+
+}
+
+.text1 {
+    text-align: center;
+    color: #32239b;
+    margin-left: 1242px;
+}
+
+.text2 {
+    text-align: center;
+    color: #b92e39;
+    margin-left: 1246px;
+    padding-top: 80px;
+    }
+
+.text3 {
+    text-align: center;
+    color: #229647;
+    margin-left: 1250px;
+    padding-top: 90px;
+}
+
+.text4 {
+    text-align: center;
+    color: #f19c2a;
+    margin-left: 1220px;
+    padding-top: 85px;
 }
 
 footer {

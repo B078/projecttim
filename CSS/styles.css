@@ -352,6 +352,38 @@ body {
     justify-content: center;
 }
 
+.text-redirect {
+    display: flex;
+    margin-top: -17px;
+    margin-left: 216px;
+    padding-left: 123px;
+    font-weight: 600;
+}
+
+.text1 {
+    text-align: center;
+    color: #32239b;
+}
+
+.text2 {
+    text-align: center;
+    color: #b92e39;
+    padding-left: 120px;
+    }
+
+.text3 {
+    text-align: center;
+    color: #229647;
+    padding-left: 126px;
+}
+
+.text4 {
+    text-align: center;
+    color: #f19c2a;
+    padding-left: 105px;
+}
+
+
 footer {
     text-align: center;
     padding: 10px;
@@ -368,21 +400,6 @@ footer a {
     color: white;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .button-redirect:hover {
