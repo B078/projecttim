@@ -196,37 +196,33 @@ body {
 }
 
 .text-redirect {
-    display: flexbox; 
-    margin-top: -407px;
-
+    display: flexbox;
+    position: relative;
+    margin-left: 58%;
+    margin-top: 214px;
 }
 
 .text1 {
-    text-align: center;
     color: #32239b;
-    padding-top: 112px;
-    margin-left: 1630px;
+    bottom: 590px;
 }
 
 .text2 {
-    text-align: center;
     color: #b92e39;
-    margin-left: 1630px;
-    padding-top: 85px;
-    }
+    bottom: 510px;
+    left: 5px;
+}
 
 .text3 {
-    text-align: center;
     color: #229647;
-    margin-left: 1630px;
-    padding-top: 90px;
+    bottom: 420px;
+    left: 8px;
 }
 
 .text4 {
-    text-align: center;
     color: #f19c2a;
-    margin-left: 1610px;
-    padding-top: 90px;
+    bottom: 335px;
+    left: -16px;
 }
 
 footer {
