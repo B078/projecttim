@@ -198,30 +198,30 @@ body {
 .text-redirect {
     display: flexbox;
     position: relative;
-    margin-left: 58%;
 }
 
 .text1 {
     color: #32239b;
     bottom: 590px;
+    left: 1243px;
 }
 
 .text2 {
     color: #b92e39;
     bottom: 510px;
-    left: 5px;
+    left: 1245px;
 }
 
 .text3 {
     color: #229647;
     bottom: 420px;
-    left: 8px;
+    left: 1250px;
 }
 
 .text4 {
     color: #f19c2a;
     bottom: 335px;
-    left: -16px;
+    left: 1220px;
 }
 
 footer {
