@@ -196,33 +196,41 @@ body {
 }
 
 .text-redirect {
-    display: flexbox;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 78%;
+    right: -84px;
+    transform: translateY(-50%);
 }
 
 .text1 {
     color: #32239b;
-    bottom: 590px;
-    left: 1243px;
+    bottom: 10%; /* Adjust as needed */
+    height: 910px;
 }
 
 .text2 {
     color: #b92e39;
-    bottom: 510px;
-    left: 1245px;
+    bottom: 10%; /* Adjust as needed */
+    height: 610px;
+    right: -80px;
 }
 
 .text3 {
     color: #229647;
-    bottom: 420px;
-    left: 1250px;
+    bottom: 10%; /* Adjust as needed */
+    height: 300px;
+    right: -80px;
 }
 
 .text4 {
     color: #f19c2a;
-    bottom: 335px;
-    left: 1220px;
+    bottom: 10%; /* Adjust as needed */
+    right: -106px;
 }
+
+
 
 footer {
     text-align: center;
