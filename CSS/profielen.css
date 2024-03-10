@@ -92,10 +92,11 @@ body {
     margin-right: 60px;
     display: flex;
     align-items: center;
+    
 }
 
 .search-profile img {
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .search-input-wrapper {

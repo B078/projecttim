@@ -154,6 +154,14 @@ body {
     font-style: normal;
 }
 
+#main-info {
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
 .button-redirect {
     display: block;
     height: 100px;
@@ -199,36 +207,42 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 78%;
-    right: -84px;
+    top: 80%;
+    right: 134px;
     transform: translateY(-50%);
+}
+
+.main label {
+    text-align: left;   
+    font-size: 36px;
+    font-family:  "Yanone Kaffeesatz";
+    font-weight: 600;
+    font-style: normal;
 }
 
 .text1 {
     color: #32239b;
-    bottom: 10%; /* Adjust as needed */
     height: 910px;
 }
 
 .text2 {
     color: #b92e39;
-    bottom: 10%; /* Adjust as needed */
     height: 610px;
-    right: -80px;
+    right: 140px;
 }
 
 .text3 {
     color: #229647;
-    bottom: 10%; /* Adjust as needed */
     height: 300px;
-    right: -80px;
+    right: 142px;
 }
 
 .text4 {
     color: #f19c2a;
-    bottom: 10%; /* Adjust as needed */
-    right: -106px;
+    height: 0px;
+    right: 110px;
 }
+
 
 
 
